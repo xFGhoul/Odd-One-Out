@@ -1,0 +1,7 @@
+﻿  Odd One Out.cpp
+C:\Users\Administrator\source\repos\Odd One Out\Odd One Out.cpp(17,56): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Administrator\source\repos\Odd One Out\Odd One Out.cpp(17,56): warning C4267:         with
+C:\Users\Administrator\source\repos\Odd One Out\Odd One Out.cpp(17,56): warning C4267:         [
+C:\Users\Administrator\source\repos\Odd One Out\Odd One Out.cpp(17,56): warning C4267:             _Ty=int
+C:\Users\Administrator\source\repos\Odd One Out\Odd One Out.cpp(17,56): warning C4267:         ]
+  Odd One Out.vcxproj -> C:\Users\Administrator\source\repos\Odd One Out\x64\Debug\Odd One Out.exe
