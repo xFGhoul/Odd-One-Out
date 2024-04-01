@@ -18,8 +18,10 @@
     <ClCompile Include="Odd One Out.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Team.hpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cards.txt" />
+    <Text Include="answers.txt" />
+    <Text Include="category.txt" />
   </ItemGroup>
 </Project>

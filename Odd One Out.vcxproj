@@ -128,7 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Odd One Out.cpp" />
-    <ClCompile Include="Team.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="answers.txt" />
+    <Text Include="cards.txt" />
+    <Text Include="category.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
