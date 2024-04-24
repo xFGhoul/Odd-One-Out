@@ -32,29 +32,29 @@ int main()
     int size = 0;
 
     // Arrays That Stores Cards and Answers
-    string deck[5];
-    string answers[5];
-    string categories[5];
+    string deck[30];
+    string answers[30];
+    string categories[30];
 
     // User Answer (Reusable)
     string answer;
 
     // Card File Handler
-    ifstream Fcards("cards.txt");
+    ifstream Fcards("Cards.txt");
     if (!Fcards) {
         cout << "Error Opening Cards File!" << endl;
         return 0;
     }
 
     // Answers File Handler
-    ifstream Fanswers("answers.txt");
+    ifstream Fanswers("Answers.txt");
     if (!Fanswers) {
         cout << "Error Opening Answers File!" << endl;
         return 0;
     }
 
     // Category File Handler
-    ifstream Fcategories("category.txt");
+    ifstream Fcategories("Categories.txt");
     if (!Fcategories) {
         cout << "Error Opening Categories File!" << endl;
         return 0;
@@ -90,7 +90,7 @@ int main()
             cout << "Team A Points: " << team_a_points << endl;
             cout << "Team B Points: " << team_b_points << endl;
 
-            int random_card = rand() % 3;
+            int random_card = rand() % 30;
 
             cout << "\nDisplaying Options: " << endl;
             cout << deck[random_card] << endl;
