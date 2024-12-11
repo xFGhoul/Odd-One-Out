@@ -1,2 +1,3 @@
 # Odd-One-Out
-CIT102 Game
+
+This was a game that I was required to make for my end of term class
